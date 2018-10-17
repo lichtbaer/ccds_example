@@ -11,4 +11,4 @@ WORKDIR /work
 
 ENTRYPOINT ["/bin/bash"]
 
-RUN jupyter notebook --notebook-dir=./notebook --ip='*' --port=8888
+RUN jupyter notebook --ip='*' --port=8888
