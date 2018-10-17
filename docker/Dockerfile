@@ -7,8 +7,6 @@ RUN conda config --add channels pyviz
 RUN conda update conda
 RUN conda install --yes --file requirements.txt
 
-WORKDIR /work
-
 ENTRYPOINT ["/bin/bash"]
 
 RUN jupyter notebook --notebook-dir=./notebook --ip='*' --port=8888
