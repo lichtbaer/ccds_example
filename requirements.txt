@@ -1,0 +1,11 @@
+awscli
+click
+matplotlib
+tensorflow
+pyviz
+pandas
+dask
+jupyter
+notebook
+Sphinx
+flake8
